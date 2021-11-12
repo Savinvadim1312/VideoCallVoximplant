@@ -274,6 +274,9 @@ PODS:
     - glog
   - react-native-safe-area-context (3.3.2):
     - React-Core
+  - react-native-voximplant (1.26.0):
+    - React
+    - VoxImplantSDK (= 2.44.0)
   - React-perflogger (0.66.2)
   - React-RCTActionSheet (0.66.2):
     - React-Core/RCTActionSheetHeaders (= 0.66.2)
@@ -344,6 +347,11 @@ PODS:
     - React-RCTImage
   - RNVectorIcons (9.0.0):
     - React-Core
+  - VoxImplantSDK (2.44.0):
+    - VoxImplantSDK/Core (= 2.44.0)
+  - VoxImplantSDK/Core (2.44.0):
+    - VoxImplantWebRTC (= 93.0.0)
+  - VoxImplantWebRTC (93.0.0)
   - Yoga (1.14.0)
   - YogaKit (1.18.1):
     - Yoga (~> 1.14)
@@ -390,6 +398,7 @@ DEPENDENCIES:
   - React-jsinspector (from `../node_modules/react-native/ReactCommon/jsinspector`)
   - React-logger (from `../node_modules/react-native/ReactCommon/logger`)
   - react-native-safe-area-context (from `../node_modules/react-native-safe-area-context`)
+  - react-native-voximplant (from `../node_modules/react-native-voximplant`)
   - React-perflogger (from `../node_modules/react-native/ReactCommon/reactperflogger`)
   - React-RCTActionSheet (from `../node_modules/react-native/Libraries/ActionSheetIOS`)
   - React-RCTAnimation (from `../node_modules/react-native/Libraries/NativeAnimation`)
@@ -421,6 +430,8 @@ SPEC REPOS:
     - fmt
     - libevent
     - OpenSSL-Universal
+    - VoxImplantSDK
+    - VoxImplantWebRTC
     - YogaKit
 
 EXTERNAL SOURCES:
@@ -460,6 +471,8 @@ EXTERNAL SOURCES:
     :path: "../node_modules/react-native/ReactCommon/logger"
   react-native-safe-area-context:
     :path: "../node_modules/react-native-safe-area-context"
+  react-native-voximplant:
+    :path: "../node_modules/react-native-voximplant"
   React-perflogger:
     :path: "../node_modules/react-native/ReactCommon/reactperflogger"
   React-RCTActionSheet:
@@ -523,6 +536,7 @@ SPEC CHECKSUMS:
   React-jsinspector: b08b2d5e86cef9dc4bb69f0aa0bbe6d210fb7da5
   React-logger: faee236598b0f7e1a5e3b68577016ac451f1f993
   react-native-safe-area-context: 584dc04881deb49474363f3be89e4ca0e854c057
+  react-native-voximplant: 530e15884ebf58b7d88a76954caafbdfba0e1a13
   React-perflogger: 5ab487cacfe6ec19bfe3d3f8072bf71eb07d63da
   React-RCTActionSheet: 03f25695e095fb5aa003828620943c74cc281fec
   React-RCTAnimation: eaf82da39f0c36fb0ef2a28df797c5f73a2a98ea
@@ -537,6 +551,8 @@ SPEC CHECKSUMS:
   ReactCommon: c0263c1a41509aeb94be3214fa7bc3b71eae5ef6
   RNScreens: 4d79118be80f79fa1f4aa131909a1d6e86280af3
   RNVectorIcons: 4143ba35feebab8fdbe6bc43d1e776b393d47ac8
+  VoxImplantSDK: fb162b8e8e7c6f9cede7012d552bc448228f4799
+  VoxImplantWebRTC: 8ddd8a63d0c20afa604fec22a2552c32b0371974
   Yoga: 9a08effa851c1d8cc1647691895540bc168ea65f
   YogaKit: f782866e155069a2cca2517aafea43200b01fd5a
 

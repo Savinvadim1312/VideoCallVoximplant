@@ -5723,7 +5723,12 @@
     "prop-types" "^15.7.2"
     "yargs" "^16.1.1"
 
-"react-native@*", "react-native@0.66.2":
+"react-native-voximplant@^1.26.0":
+  "integrity" "sha512-2IjP71nb1HY9BTqbr96rcgWnZqx+e0THT9ayEwUVwmxx273gKDMRe+Oa7bOslQb99Ke/nQkkxINSe1UczoNhbw=="
+  "resolved" "https://registry.npmjs.org/react-native-voximplant/-/react-native-voximplant-1.26.0.tgz"
+  "version" "1.26.0"
+
+"react-native@*", "react-native@>= 0.47.0", "react-native@0.66.2":
   "integrity" "sha512-d5Kp23kqAH0EmcyxyfjAr4rhVVzyK/J0cZ/JuopX16CBD4Nkad65KcJi1pyOpbhpP9L1aUUs+mRyK5kg0uLqJQ=="
   "resolved" "https://registry.npmjs.org/react-native/-/react-native-0.66.2.tgz"
   "version" "0.66.2"
